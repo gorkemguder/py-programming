@@ -66,7 +66,6 @@ opt2.pack( expand=True, pady=2)
 opt3 = customtkinter.CTkRadioButton(master=onFrameFinal, text="$", variable=opt_var, value=3)
 opt3.pack(expand=True, pady=2)
 
-
 ### Center Frame
 centerFrame = customtkinter.CTkFrame(master=mainFrame, height=40)
 centerFrame.pack(padx=10, pady=10, fill="x", expand=True, side=customtkinter.TOP)
