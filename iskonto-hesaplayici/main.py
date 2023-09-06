@@ -3,18 +3,17 @@ import tkinter
 from CTkMessagebox import CTkMessagebox
 
 def Calculate():
-    if (opt_var.get() != 0):
-        try:
-            discountResultLabel.configure(text="")
-            totalResultLabel.configure(text="")
+    try:
+        discountResultLabel.configure(text="")
+        totalResultLabel.configure(text="")
 
-            totalValue = totalEntry.get()
-            discountValue = discountEntry.get()
-            totalValueT = float(totalValue)
-            discountValueT = float(discountValue)
-            result1 = (totalValueT * discountValueT) / 100
-            result2 = totalValueT - result1
-
+        totalValue = totalEntry.get()
+        discountValue = discountEntry.get()
+        totalValueT = float(totalValue)
+        discountValueT = float(discountValue)
+        result1 = (totalValueT * discountValueT) / 100
+        result2 = totalValueT - result1
+        if (opt_var.get() != 0):
             if (opt_var.get()==1):
                 optms = "  ₺"
             elif (opt_var.get()==2):
@@ -23,11 +22,10 @@ def Calculate():
                 optms = "  $"
             discountResultLabel.configure(text=str(result1)+optms)
             totalResultLabel.configure(text=str(result2)+optms)
-        except ValueError:
-            CTkMessagebox(title="Hata", message="Lütfen boşlukları eksiksiz ve doğru doldurun.", icon="cancel")
-    else:
-        CTkMessagebox(title="Hata", message="Lütfen para birimi seçin.", icon="cancel")
-        
+        else:
+            CTkMessagebox(title="Hata", message="Lütfen para birimi seçin.", icon="cancel")
+    except ValueError:
+        CTkMessagebox(title="Hata", message="Lütfen boşlukları eksiksiz ve doğru doldurun.", icon="cancel")
 
 customtkinter.set_appearance_mode("dark")
 customtkinter.set_default_color_theme("dark-blue")
