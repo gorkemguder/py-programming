@@ -32,4 +32,4 @@ Tüm listeler tek buton ile temizlenebilir.
 
 ![image](https://github.com/gorkemguder/py-programming/assets/117344704/83b613d2-be3e-433d-9f09-180112869315)
 
-* CustomTkinter, CTkListbox ve Random kütüphanesi kullanılarak programlanmıştır.
+* CustomTkinter, CTkMessageBox, CTkListbox ve Random kütüphanesi kullanılarak programlanmıştır.
