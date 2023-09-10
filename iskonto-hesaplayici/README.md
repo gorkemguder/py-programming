@@ -22,4 +22,4 @@ Eğer tüm alanlar eksiksiz doldurulursa, program verilen değerlere göre işle
 ![image](https://github.com/gorkemguder/py-programming/assets/117344704/3e6451e1-1756-4bd3-89c7-82635d731886)
 
 
-* CustomTkinter kütüphanesi kullanılarak programlanmıştır.
+* CustomTkinter ve CTkMessageBox kütüphanesi kullanılarak programlanmıştır.
