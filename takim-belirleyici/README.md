@@ -21,3 +21,13 @@ Takımları Dağıt butonuna basıldığında, tüm oyuncuları rastgele olacak 
 ![image](https://github.com/gorkemguder/py-programming/assets/117344704/92593298-f054-4aaa-9a1f-d05a2fe4adb9)
 
 ![image](https://github.com/gorkemguder/py-programming/assets/117344704/a27688ea-b879-414b-bf55-e1cbfddc5754)
+
+Oyuncu listesindeki seçilen oyuncular, isteğe bağlı olarak silinebilir.
+
+![image](https://github.com/gorkemguder/py-programming/assets/117344704/c9e06174-3ff3-428f-84a7-ee932083c00c)
+
+Tüm listeler tek buton ile temizlenebilir.
+
+![image](https://github.com/gorkemguder/py-programming/assets/117344704/83b613d2-be3e-433d-9f09-180112869315)
+
+* CustomTkinter, CTkListbox ve Random kütüphanesi kullanılarak programlanmıştır.
